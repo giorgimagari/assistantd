@@ -1,0 +1,16 @@
+ study Assistant
+- Summarize text
+- Translate text
+- Create study plans
+- Solve math expressions
+- Generate general text
+
+How to run
+
+1. install dependencies:
+```bash
+pip install transformers torch
+
+2.run the agent
+python agent.py
+
