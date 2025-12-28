@@ -11,6 +11,7 @@ How to run
 ```bash
 pip install transformers torch
 
-2.run the agent
-python agent.py
+2.streamlit run app.py
+
+
 
