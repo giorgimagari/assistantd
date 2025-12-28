@@ -11,7 +11,10 @@ How to run
 ```bash
 pip install transformers torch
 
-2.streamlit run app.py
+2.
+cd desktop/agent
+dir
+streamlit run app.py
 
 
 
