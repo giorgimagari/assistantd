@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 
 st.set_page_config(page_title="Study Assistant", layout="centered")
@@ -15,10 +14,8 @@ st.markdown("""
 - Generate general text  
 """)
 
-# User input
 user_input = st.text_area("Enter your text here:", height=200)
 
-# Buttons
 col1, col2, col3, col4, col5 = st.columns(5)
 
 if col1.button("Summarize"):
